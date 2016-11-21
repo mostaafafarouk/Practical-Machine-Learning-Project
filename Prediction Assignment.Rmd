@@ -1,7 +1,7 @@
 
 ---
 title: "Weight Lifting Prediction"
-date: '2015-11-21'
+date: '2016-11-21'
 output: html_document
 ---
 Practical Machine Learning - Prediction Assignment Writeup
@@ -43,7 +43,7 @@ library(Hmisc)
 ## 
 ## Attaching package: 'survival'
 ## 
-## L'objet suivant est masqué from 'package:caret':
+## L'objet suivant est masquÃ© from 'package:caret':
 ## 
 ##     cluster
 ## 
@@ -51,11 +51,11 @@ library(Hmisc)
 ## 
 ## Attaching package: 'Hmisc'
 ## 
-## L'objet suivant est masqué from 'package:randomForest':
+## L'objet suivant est masquÃ© from 'package:randomForest':
 ## 
 ##     combine
 ## 
-## Les objets suivants sont masqués from 'package:base':
+## Les objets suivants sont masquÃ©s from 'package:base':
 ## 
 ##     format.pval, round.POSIXt, trunc.POSIXt, units
 ```
@@ -141,7 +141,7 @@ confusionMatrix(predictionsTr,training$classe)
 ## 
 ## Attaching package: 'e1071'
 ## 
-## L'objet suivant est masqué from 'package:Hmisc':
+## L'objet suivant est masquÃ© from 'package:Hmisc':
 ## 
 ##     impute
 ```
